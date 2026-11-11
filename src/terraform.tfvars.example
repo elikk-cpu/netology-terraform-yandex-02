@@ -1,8 +1,9 @@
-# Заполните своими значениями и сохраните копию как terraform.tfvars.
+# Скопируйте этот файл в terraform.tfvars и заполните своими значениями.
 cloud_id  = "YOUR_CLOUD_ID"
 folder_id = "YOUR_FOLDER_ID"
 
 # Публичный SSH-ключ пользователя ubuntu.
+# Приватный ключ в репозиторий не добавляется.
 metadata = {
   "serial-port-enable" = "1"
   "ssh-keys"           = "ubuntu:ssh-ed25519 AAAA_REPLACE_WITH_YOUR_PUBLIC_KEY terraform-homework"
